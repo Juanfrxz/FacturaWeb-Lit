@@ -1,0 +1,67 @@
+/* src/styles.css */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  invoice-app {
+    display: block;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 30px;
+  }
+  
+  invoice-header .header-container {
+    background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+  }
+  
+  invoice-header h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .product-selector {
+    background-color: #f1f3f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table thead {
+    background-color: #e9ecef;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #0056b3;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  input, select {
+    transition: all 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+    border-color: #80bdff;
+  }
