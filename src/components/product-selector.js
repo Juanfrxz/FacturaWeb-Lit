@@ -1,5 +1,5 @@
 // src/components/product-selector.js
-import { LitElement, html,} from 'lit';
+import { LitElement, html} from 'lit';
 import { productList } from '../utils/invoice-generator.js';
 
 export class ProductSelector extends LitElement {

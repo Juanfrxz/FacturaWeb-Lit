@@ -1,5 +1,5 @@
 // src/components/invoice-header.js
-import { LitElement, html, css } from 'lit';
+import { LitElement, html} from 'lit';
 import { generateInvoiceNumber } from '../utils/invoice-generator.js';
 
 export class InvoiceHeader extends LitElement {
