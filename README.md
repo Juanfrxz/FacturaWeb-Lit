@@ -25,7 +25,7 @@ Un generador de facturas moderno, interactivo y completamente personalizable con
 
 ### Clonar el Repositorio
 ```bash
-git clone https://github.com/tu-usuario/facturador-dinamico.git
+git clone https://github.com/Juanfrxz/FacturaWeb-Lit.git
 cd facturador-dinamico
 ```
 
